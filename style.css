@@ -77,4 +77,9 @@ a{
     .container{
         flex-direction: column;
     }
+    container .card:hover .head {
+    opacity: 1;
+    transform: translateY(0px);
+    background-color: yellow;
+}
 }
